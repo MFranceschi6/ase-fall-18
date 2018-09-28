@@ -16,6 +16,7 @@ def divide(m, n):
     if n == 0:
         raise ZeroDivisionError
     # checks the sign of the operation
+    # c'hai già messo l'eccezione, aggiungo un utile commento per vedere se son riuscito a forkare
     neg = False
     if m < 0:
         neg = not neg
